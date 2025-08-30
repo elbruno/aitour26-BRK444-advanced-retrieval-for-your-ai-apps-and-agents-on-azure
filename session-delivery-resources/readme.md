@@ -17,13 +17,17 @@ Speaker notes are available for each slide.
 
 ### Video recording
 
-[Watch the recording](https://aka.ms/AArzook)
+[Watch the recording](https://www.youtube.com/watch?v=EPtkPos4HVA)
 
 ### Timing
 
-| Segment             | Time  |
-|---------------------|-------|
-| Segment Name        | 10:00 |
+| Segment                         | Time  |
+|---------------------------------|-------|
+| Introduction                    | 03:00 |
+| Optimal Search Strategies       | 22:30 |
+| AGE for PostgreSQL              |  7:00 |
+| Agentic retrieval for AI Search |  6:30 |
+| Conclusion                      |  1:00 |
 
 ## Demos
 
