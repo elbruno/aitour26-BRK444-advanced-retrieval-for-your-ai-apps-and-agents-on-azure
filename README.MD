@@ -1,86 +1,42 @@
-# Welcome AI Tour 26 Creators!
-
-Thanks for creating content for AI Tour 26.
-
-One of our opportunities from FY25 was make a more consistent experience for attendees.  Following this template, and keeping users in these repos, will help us achieve this opportunity for this year's AI Tour.
-
-Steps:
-
-## Docs using MKDocs
-If you are interested in using mkdocs, this repo is configured for it.
-1. update the `mkdocs.yml` file to reference your session. Look particularly for the `site_name`, `site_author`, and `repo_name` tags.
-1. Subfolders in the docs folder will show up as tabs in the navigation bar.
-
-If you want to disable mkdocs:
-1. Delete the mkdocs.yml file. 
-1. Delete the references to it in [docs/README.md](./docs/README.md)
-1. Delete the docs/assets folder and its contents.
-
-## Other folders
-Note the data, docs, src, lab, session-delivery-resources folders. 
-1. Remove folders that you dont need.
-1. Please keep and use the folders that you do need.  e.g. put your data in the data folder, and put your docs in the docs folder.
-
-## Update Readme
-1. Fill out the content below in this file, below the banner graphic.
-
-## Update Repo Info
-
-1. Note the data, docs, src, lab, session-delivery-resources folders. 
-
-    1. Remove folders that you dont need, but please keep and use the folders that you do need.  e.g. put your data in the data folder, and put your docs in the docs folder.
-
-1. Fill out the content below in this file, below the banner graphic.
-
-1. Update the Repo Info for this repo 
-    1. Click the gear icon⚙️ in the upper right.
-    1. Set a good description of this repo.
-    1. Add the technologies that you're using in this session.  E.g. the same items that are in the Technologies Used section below.
-
-1. Please embed links to Learn with your campaign codes!
-
-## Questions?
-Send them to Mike Kinsman, Erik Weis, and cc Anthony Bartolo.
-
-## Last step
-Delete this line and everything above it!
-
-
 <p align="center">
 <img src="img/Banner-MS-AI-Tour-26.png" alt="decorative banner" width="1200"/>
 </p>
 
 # [Microsoft AI Tour 2026](https://aitour.microsoft.com)
 
-## 🔥BRKXXX: The future of AI Agents starts with search
+## 🔥BRK444: Advanced Retrieval for your AI Apps and Agents on Azure
 
 If you will be delivering this session, check the [session-delivery-sources](./session-delivery-resources/) folder for slides, scripts, and other resources.
 
 ### Session Description
 
-*Add Session Description*
-
+Learn how to build production-ready AI agents using Azure AI Search and PostgreSQL. This session covers agentic retrieval, graph-based retrieval, and advanced grounding techniques to power your enterprise AI apps.
 
 ### 🧠 Learning Outcomes
 
-By the end of this session, learners will be able to:
+By the end of this session, learners will:
 
--  
--
--
+- Understand the steps of a full hybrid search, combining vector search, keyword search, and re-ranking
+- Implement agentic retrieval techniques using Azure AI Search
+- Utilize graph-based retrieval methods with Azure Database for PostgreSQL and Apache AGE
 
 ### 💻 Technologies Used
 
-1.
-1.
-1.
+1. Azure AI Search
+1. Azure Database for PostgreSQL
+1. Azure AI Foundry
+1. Azure OpenAI
+1. Cohere Re-ranker
 
 ### 🔗 Session Resources
-| Resources          | Links                             | Description        |
+
+| Resource           | Link                              | Description        |
 |:-------------------|:----------------------------------|:-------------------|
-| Additional Resources for this session | https://learn.microsoft.com | Links specific to this session |
+| Azure AI Search RAG | https://aka.ms/ragchat  | E2E open-source solution implementing hybrid search and agentic retrieval |
+| PostgreSQL e-Shop  | https://aka.ms/agentic-shop​ | E2E open-source solution showcasing graph-based retrieval and agentic personalization using Azure Database for PostgreSQL |
 
 ### 📚 Continued Learning Resources
+
 | Resources          | Links                             | Description        |
 |:-------------------|:----------------------------------|:-------------------|
 | AI Tour 2026 Resource Center | https://aka.ms/AITour26-Resource-center | Links to all repos for AI Tour 26 Sessions |
@@ -93,31 +49,16 @@ By the end of this session, learners will be able to:
 
 ## Content Owners
 
-<!-- TODO: Add yourself as a content owner
-1. Change the src in the image tag to {your github url}.png
-2. Change INSERT NAME HERE to your name
-3. Change the github url in the final href to your url. -->
-
-
 <table>
 <tr>
-    <td align="center"><a href="http://github.com/mikekinsman">
-        <img src="https://github.com/mikekinsman.png" width="100px;" alt="INSERT NAME HERE"
-"/><br />
-        <sub><b> INSERT NAME HERE
+    <td align="center"><a href="https://github.com/pamelafox">
+        <img src="https://github.com/pamelafox.png" width="100px;" alt="Pamela Fox"
+/><br />
+        <sub><b>Pamela Fox
 </b></sub></a><br />
-            <a href="https://github.com/mikekinsman" title="talk">📢</a> 
-    </td>
-    <td align="center"><a href="http://github.com/mikekinsman">
-        <img src="https://github.com/mikekinsman.png" width="100px;" alt="INSERT NAME HERE
-"/><br />
-        <sub><b>INSERT NAME HERE
-</b></sub></a><br />
-            <a href="https://github.com/mikekinsman" title="talk">📢</a> 
+            <a href="https://github.com/pamelafox" title="talk">📢</a> 
     </td>
 </tr></table>
-
-## 
 
 ## Responsible AI 
 
