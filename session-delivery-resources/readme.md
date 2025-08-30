@@ -39,7 +39,7 @@ To be able to show the demos yourself, you will need to set up the three codebas
 
 #### Zava products database
 
-1. Clone [the repo](https://github.com/microsoft/ai-tour-26-zava-diy-dataset-plus-mcp) OR navigate into this `src` folder, where the repo is checked in as a submodule.
+1. Clone [the repo](https://github.com/microsoft/ai-tour-26-zava-diy-dataset-plus-mcp) OR navigate into the `src` folder, where the repo is checked in as a submodule.
 
     ```bash
     cd ai-tour-26-zava-diy-dataset-plus-mcp
@@ -84,7 +84,7 @@ To be able to show the demos yourself, you will need to set up the three codebas
 
 #### Agentic Shop
 
-1. Clone [the repo](https://github.com/Azure-Samples/postgres-agentic-shop) OR navigate into this `src` folder, where the repo is checked in as a submodule.
+1. Clone [the repo](https://github.com/Azure-Samples/postgres-agentic-shop) OR navigate into the `src` folder, where the repo is checked in as a submodule.
 
     ```bash
     cd postgres-agentic-shop
@@ -106,7 +106,7 @@ To be able to show the demos yourself, you will need to set up the three codebas
 
 #### RAG on AI Search
 
-1. Clone [the repo](https://github.com/Azure-Samples/azure-search-openai-demo) OR navigate into this `src` folder, where the repo is checked in as a submodule.
+1. Clone [the repo](https://github.com/Azure-Samples/azure-search-openai-demo) OR navigate into the `src` folder, where the repo is checked in as a submodule.
 
     ```bash
     cd azure-search-openai-demo
