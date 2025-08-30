@@ -1,0 +1,9 @@
+[submodule "src/ai-tour-26-zava-diy-dataset-plus-mcp"]
+	path = src/ai-tour-26-zava-diy-dataset-plus-mcp
+	url = https://github.com/microsoft/ai-tour-26-zava-diy-dataset-plus-mcp
+[submodule "src/postgres-agentic-shop"]
+	path = src/postgres-agentic-shop
+	url = https://github.com/Azure-Samples/postgres-agentic-shop
+[submodule "src/azure-search-openai-demo"]
+	path = src/azure-search-openai-demo
+	url = https://github.com/Azure-Samples/azure-search-openai-demo

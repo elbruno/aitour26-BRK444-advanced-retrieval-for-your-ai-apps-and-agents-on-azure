@@ -56,12 +56,16 @@ By the end of this session, learners will:
 <tr>
     <td align="center"><a href="https://github.com/pamelafox">
         <img src="https://github.com/pamelafox.png" width="100px;" alt="Pamela Fox"
-/><br />
-        <sub><b>Pamela Fox
-</b></sub></a><br />
-            <a href="https://github.com/pamelafox" title="talk">📢</a> 
+/><br />Pamela Fox</a><br />
     </td>
-</tr></table>
+    <td align="center"><a href="https://github.com/iemejia">
+        <img src="https://github.com/iemejia.png" width="100px;" alt="Ismaël Mejía"/><br />
+        <sub><b>Ismaël Mejía
+</b></sub></a>
+    </td>
+</tr>
+
+</table>
 
 ## Responsible AI 
 

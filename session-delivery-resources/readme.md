@@ -12,8 +12,8 @@ Prior to delivering the workshop please:
 
 ### Powerpoint
 
-Download the English version of the Powerpoint Presentation from [aka.ms/AArxlgn](https://aka.ms/AArxlgn).
-Speaker notes are available on each slide.
+Download the [English version of the Powerpoint presentation](https://microsoft.sharepoint.com/:p:/t/EventSessionUploads/EfGaf8bHX0FEkJRrBmQcD08Bwniycmt4yt3VWDB_i_l1oQ?e=EJ4bBH).
+Speaker notes are available for each slide.
 
 ### Video recording
 
@@ -21,43 +21,120 @@ Speaker notes are available on each slide.
 
 ### Timing
 
-| Segment             | Time |
-|---------------------|------|
+| Segment             | Time  |
+|---------------------|-------|
 | Segment Name        | 10:00 |
-
 
 ## Demos
 
-These are the demos that you may choose to do in the presentation. You may leave some out depending on time constraints. 
+There are six demos in the presentation, from three different samples:
+
+* **[Zava products database](https://github.com/microsoft/ai-tour-26-zava-diy-dataset-plus-mcp)**: Python scripts that demonstrate different search strategies on a PostgreSQL database.
+* **[Agentic Shop](https://github.com/Azure-Samples/postgres-agentic-shop)**: An E2E full-stack app powered by Azure Database for PostgreSQL, showcasing graph query retrieval.
+* **[RAG on AI Search](https://github.com/Azure-Samples/azure-search-openai-demo/)**: An E2E full-stack app powered by Azure AI Search, showcasing agentic retrieval.
 
 ### Setup
 
-To be able to show the demos yourself, setup these two repositories:
+To be able to show the demos yourself, you will need to set up the three codebases.
 
-* **RAG on AI Search**: Follow deployment instructions in [azure-search-openai-demo](https://github.com/Azure-Samples/azure-search-openai-demo), making sure to enable [the optional vision feature](https://github.com/Azure-Samples/azure-search-openai-demo/blob/main/docs/gpt4v.md)
-* **RAG on PostgreSQL**: Follow instructions in [rag-postgres-openai-python](https://github.com/Azure-Samples/rag-postgres-openai-python) - Not a part of the current slide, but was in the original version.
-* **Dave's repo**: https://github.com/microsoft/ai-tour-26-zava-diy-dataset-plus-mcp
+#### Zava products database
 
-cd infra && deploy.sh
+1. Clone [the repo](https://github.com/microsoft/ai-tour-26-zava-diy-dataset-plus-mcp) OR navigate into this `src` folder, where the repo is checked in as a submodule.
 
-./scripts/init-db.sh
+    ```bash
+    cd ai-tour-26-zava-diy-dataset-plus-mcp
+    ```
 
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-python ./scripts/setup_azure_ai.py
+2. Deploy the necessary infrastructure:
 
-Make sure each script can run successfully:
+    ```bash
+    cd infra && deploy.sh
+    ```
 
-python ./scripts/keyword_search.py
-python ./scripts/vector_search.py
-python ./scripts/hybrid_rrf_search.py
+3. Initialize the database with seed product data:
 
+    ```bash
+    ./scripts/init-db.sh
+    ```
+
+4. Setup the Python environment and install dependencies:
+
+    ```bash
+    python -m venv .venv
+    source .venv/bin/activate
+    pip install -r requirements.txt
+    ```
+
+5. Configure the Azure AI extensions for Azure Database for PostgreSQL:
+
+    ```
+    python ./scripts/setup_azure_ai.py
+    ```
+
+6. Test that each script runs successfully:
+
+    ```bash
+    python ./scripts/keyword_search.py
+    python ./scripts/vector_search.py
+    python ./scripts/hybrid_rrf_search.py
+    python ./scripts/hybrid_ranker_search.py
+    ```
+
+7. Install the PostgreSQL extension for VS Code and create a new server connection for the provisioned Azure database. Navigate to zava database, open the retail schema, and use the context menu to visualize the schema.
+
+#### Agentic Shop
+
+1. Clone [the repo](https://github.com/Azure-Samples/postgres-agentic-shop) OR navigate into this `src` folder, where the repo is checked in as a submodule.
+
+    ```bash
+    cd postgres-agentic-shop
+    ```
+
+2. Create a new azd environment:
+
+    ```bash
+    azd env new
+    ```
+
+2. Provision the Azure resources and deploy the app:
+
+    ```bash
+    azd up
+    ```
+
+3. Navigate to the deployed frontend endpoint and confirm that the application is running. Test the search for "headphones with good reviews about noise cancellation" works.
+
+#### RAG on AI Search
+
+1. Clone [the repo](https://github.com/Azure-Samples/azure-search-openai-demo) OR navigate into this `src` folder, where the repo is checked in as a submodule.
+
+    ```bash
+    cd azure-search-openai-demo
+    ```
+
+2. Create a new azd environment:
+
+    ```bash
+    azd env new
+    ```
+
+3. Enable agentic retreival:
+
+    ```bash
+    azd env set USE_AGENTIC_RETRIEVAL true
+    ```
+
+4. Provision the Azure resources and deploy the app:
+
+    ```bash
+    azd up
+    ```
+
+5. Navigate to the deployed endpoint and confirm the app is working. Test the question "How do expectations differ for Manager of Product Management vs Senior Manager of PM?"
 
 ### Video recordings
 
 If you'd like, there are videos available for each demo. These videos have audio, which you can choose to mute and talk over.
-
 
 | Demo 	                  | Duration | Video - Audio  |
 --------------------------|----------|----------------|
