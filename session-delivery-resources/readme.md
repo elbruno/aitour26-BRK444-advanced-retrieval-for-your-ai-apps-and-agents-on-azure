@@ -17,7 +17,7 @@ Speaker notes are available for each slide.
 
 ### Video recording
 
-[Watch the recording](https://www.youtube.com/watch?v=EPtkPos4HVA)
+[Watch the recording](https://aka.ms/AAxs6f6)
 
 ### Timing
 
@@ -142,9 +142,9 @@ If you'd like, there are videos available for each demo. These videos have audio
 
 | Demo 	                  | Duration | Video - Audio  |
 --------------------------|----------|----------------|
-|  1 - Keyword Search     | 3:35     | [Recording](https://assetsmanagement952e.blob.core.windows.net/assets/BRK444%20Advanced%20retrieval%20for%20your%20AI%20Apps%20and%20Agents%20on%20Azure/Demo1_KeywordSearch_V1.0.mov) |
-|  2 - Vector Search      | 3:21     | [Recording](https://assetsmanagement952e.blob.core.windows.net/assets/BRK444%20Advanced%20retrieval%20for%20your%20AI%20Apps%20and%20Agents%20on%20Azure/Demo2_VectorSearch_V1.0.mov) |
-|  3 - RRF Search         | 1:31     | [Recording](https://assetsmanagement952e.blob.core.windows.net/assets/BRK444%20Advanced%20retrieval%20for%20your%20AI%20Apps%20and%20Agents%20on%20Azure/Demo3_HybridRRFSearch_V1.0.mov) |
-|  4 - Ranker Search      | 1:49     | [Recording](https://assetsmanagement952e.blob.core.windows.net/assets/BRK444%20Advanced%20retrieval%20for%20your%20AI%20Apps%20and%20Agents%20on%20Azure/Demo4_HybridRankerSearch_V1.0.mov) |
-|  5 - Postgres Shop      | 2:04     | [Recording](https://assetsmanagement952e.blob.core.windows.net/assets/BRK444%20Advanced%20retrieval%20for%20your%20AI%20Apps%20and%20Agents%20on%20Azure/Demo5_AgenticShop_V1.0.mov) |
-|  6 - Agentic AI Search  | 1:52     | [Recording](https://assetsmanagement952e.blob.core.windows.net/assets/BRK444%20Advanced%20retrieval%20for%20your%20AI%20Apps%20and%20Agents%20on%20Azure/Demo6_AISearchRAG_V1.0.mov) |
+|  1 - Keyword Search     | 3:35     | [aka.ms/AAxryur](https://aka.ms/AAxryur) |
+|  2 - Vector Search      | 3:21     | [aka.ms/AAxs6f8](https://aka.ms/AAxs6f8) |
+|  3 - RRF Search         | 1:31     | [aka.ms/AAxs6f9](https://aka.ms/AAxs6f9) |
+|  4 - Ranker Search      | 1:49     | [aka.ms/AAxsdx4](https://aka.ms/AAxsdx4) |
+|  5 - Postgres Shop      | 2:04     | [aka.ms/AAxsdx5](https://aka.ms/AAxsdx5) |
+|  6 - Agentic AI Search  | 1:52     | [aka.ms/AAxsdx3](https://aka.ms/AAxsdx3) |
