@@ -17,7 +17,7 @@ Speaker notes are available for each slide.
 
 ### Video recording
 
-[Watch the recording](https://aka.ms/AAxs6f6)
+[Watch the recording](https://aka.ms/BRK444GHrepo)
 
 ### Timing
 
