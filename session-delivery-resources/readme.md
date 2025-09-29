@@ -12,7 +12,7 @@ Prior to delivering the workshop please:
 
 ### Powerpoint
 
-Download the [English version of the Powerpoint presentation](https://microsoft.sharepoint.com/:p:/t/EventSessionUploads/EfGaf8bHX0FEkJRrBmQcD08Bwniycmt4yt3VWDB_i_l1oQ?e=EJ4bBH).
+Download the [English version of the Powerpoint presentation](https://aka.ms/AAy25c2).
 Speaker notes are available for each slide.
 
 ### Video recording
